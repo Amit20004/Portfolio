@@ -1,0 +1,106 @@
+.abt{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: blocks;
+    /* font-weight: 600; */
+    top: 20px;
+    font-size: 45px;
+}
+
+
+
+.abt-main{
+    background-color: rgb(254, 253, 248);
+}
+
+
+  .myabout{
+    height: 85vh;
+    padding-top: 50px;
+}
+
+  
+.skill-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.skill-label {
+    width: 120px;
+    text-align: right;
+    padding-right: 15px;
+    color: #333;
+}
+.skill-bar {
+    width: 100px;
+    height: 25px;
+    background-color: #dee1e1;
+}
+.css{
+    width: 90%;
+    background-color: #b24343;
+}
+.html{
+    width: 90%;
+    background-color: #b24343;
+}
+.js{
+    width: 90%;
+    background-color: #b24343;
+}
+.react{
+    width: 85%;
+    background-color: #b24343;
+}
+.node{
+    width: 85%;
+    background-color: #b24343;
+}
+.mongo{
+    width: 80%;
+    background-color: #b24343;
+}
+.figma{
+    width: 30%;
+    background-color: #b24343;
+}
+.wordpress{
+    width: 80%;
+    background-color: #b24343;
+}
+
+.circle-shape {
+    width: 300px;
+    /* max-width: 250px;  */
+    height: 300px;
+    position: relative;
+    bottom: 30px;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 10px 10px 50px rgb(247, 209, 209);
+
+    overflow: hidden;
+    /* transform: rotate(90deg); */
+  }
+  
+  .circle-shape img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    /* border: 2px solid red; */
+    display: block;
+    /* transform: rotate(-90deg); */
+
+  }
+  
+  
+  .hexagon-shape img {
+    width: 100%;
+    height: auto;
+    display: block;
+    clip-path: polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%);
+  }
+  
