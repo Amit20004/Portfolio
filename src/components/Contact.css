@@ -119,3 +119,11 @@
   .top-button:hover {
     background-color: #c2185b;
   }
+
+  @media (max-width: 600px){
+    .icon{
+       width: 25px;
+       height: 25px;
+ 
+    }
+  }
