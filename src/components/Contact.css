@@ -121,7 +121,7 @@
   }
 
   @media (max-width: 600px){
-    .icon{
+    .social-icons .icon{
        width: 25px;
        height: 25px;
  
